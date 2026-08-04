@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: demo
+    database: DEMO
+    schema: PUBLIC        # <-- change this if your CS table is in a different schema
+    tables:
+      - name: cs
+        description: "Raw employee data loaded from employee.csv"
